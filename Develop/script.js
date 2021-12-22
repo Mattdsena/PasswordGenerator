@@ -1,3 +1,8 @@
+var special
+var numbers 
+var lowerCase 
+var upperCase
+
 //Constants 
 const SPECIAL_CHARACTERS = '!@#$%^&*();:.,<>';
 const NUMERICAL_CHARACTERS = '0123456789';
@@ -25,9 +30,11 @@ function writePassword() {
     return alert("Please try again & select a value between 8 and 128")
   }
 
+special = confirm("Please click on OK if you would like to use special characters in your password, please click cancel if you do not want special characters in your password")
+if (special) {
+    allPossibleCharacters = allPossibleCharacters.concat(SPECIAL_CHARACTERS)
    }
-
+  }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
