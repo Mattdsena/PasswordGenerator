@@ -34,6 +34,21 @@ special = confirm("Please click on OK if you would like to use special character
 if (special) {
     allPossibleCharacters = allPossibleCharacters.concat(SPECIAL_CHARACTERS)
    }
+
+numbers = confirm("Please click on OK if you would like to use numbers in your password, please click cancel if you do not want numbers in your password")
+if (numbers) {
+    allPossibleCharacters = allPossibleCharacters.concat(NUMERICAL_CHARACTERS)
+      }
+
+lowerCase  = confirm("Please click on OK if you would like to use lowercase characters in your password, please click cancel if you do not want lowercase characters in your password")
+if (lowerCase) {
+    allPossibleCharacters = allPossibleCharacters.concat(LOWERCASE_CHARACTERS)
+         }
+      
+upperCase = confirm("Please click on OK if you would like to use uppercase characters in your password, please click cancel if you do not want uppercase characters in your password")
+if (upperCase) {
+    allPossibleCharacters = allPossibleCharacters.concat(UPPERCASE_CHARACTERS)
+            }
   }
 
 // Add event listener to generate button
