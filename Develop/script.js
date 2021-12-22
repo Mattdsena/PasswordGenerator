@@ -20,6 +20,11 @@ function writePassword() {
    if (!PasswordLength) {
        return
    }
+
+   if (PasswordLength < 8 || PasswordLength > 128) {
+    return alert("Please try again & select a value between 8 and 128")
+  }
+
    }
 
 
