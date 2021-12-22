@@ -14,9 +14,9 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+    passwordText.value = password;
   }
 
   function generatePassword() {
@@ -53,6 +53,7 @@ if (upperCase) {
     if (special === false && numbers === false && lowerCase === false && upperCase === false) {
         return alert("Please try again, you must have at least one character type in your password")
         }
+
         var notValid = true;
         var validPassword = "";
         while (notValid) {
@@ -63,8 +64,16 @@ if (upperCase) {
             validPassword = pass;
           }
         }
-        return validPassword;         
+        return validPassword;
   }
+  function generatePossible(userLength, concatString) {
+    var possPassword = "";
+    for (var n = 0; n < userLength; n++) {
+      possPassword += concatString.charAt(Math.floor(Math.random() * concatString.length));
+    }
+    return possPassword;
+  }
+
   function checkPasswordValid(passToCheck) {
     console.log(passToCheck + " check password valid");
     if (special) {
@@ -98,6 +107,7 @@ if (upperCase) {
     }
     return true;
   }
+  
   function commonChar(charSetString, passwordToTest) {
 
     for (let i = 0; i < passwordToTest.length; i++) {
@@ -108,5 +118,7 @@ if (upperCase) {
     return false;
   
   }
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
