@@ -93,31 +93,18 @@ function checkPasswordValid(passToCheck) {
   if (special) {
     let check1 = commonChar(SPECIAL_CHARACTERS, passToCheck);
     console.log("check for special characters " + check1);
-    if (!check1) {
-      return false;
-    }
   }
   if (numbers) {
     let check2 = commonChar(NUMERICAL_CHARACTERS, passToCheck);
     console.log("check for numbers " + check2);
-    if (!check2) {
-      return false;
-    }
   }
   if (lowerCase) {
     let check3 = commonChar(LOWERCASE_CHARACTERS, passToCheck);
     console.log("check for lowercase " + check3);
-    if (!check3) {
-      return false;
-    }
   }
   if (upperCase) {
     let check4 = commonChar(UPPERCASE_CHARACTERS, passToCheck);
     console.log("check for uppercase " + check4);
-    if (!check4) {
-      return false;
-    }
-
   }
   return true;
 }
