@@ -90,30 +90,27 @@ function generatePossible(userLength, concatString) {
 // Check to make sure password is valid and contains users selected characters
 function checkPasswordValid(passToCheck) {
   if (special) {
-    let check1 = commonChar(SPECIAL_CHARACTERS, passToCheck);
+    let = commonChar(SPECIAL_CHARACTERS, passToCheck);
   }
   if (numbers) {
-    let check2 = commonChar(NUMERICAL_CHARACTERS, passToCheck);
+    let = commonChar(NUMERICAL_CHARACTERS, passToCheck);
   }
   if (lowerCase) {
-    let check3 = commonChar(LOWERCASE_CHARACTERS, passToCheck);
+    let = commonChar(LOWERCASE_CHARACTERS, passToCheck);
   }
   if (upperCase) {
-    let check4 = commonChar(UPPERCASE_CHARACTERS, passToCheck);
+    let = commonChar(UPPERCASE_CHARACTERS, passToCheck);
   }
   return true;
 }
 
 // Check to see common characters
 function commonChar(charSetString, passwordTest) {
-
   for (let i = 0; i < passwordTest.length; i++) {
     if (charSetString.includes(passwordTest[i])) {
       return true;
     }
   }
-  return false;
 }
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
