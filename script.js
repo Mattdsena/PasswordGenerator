@@ -89,22 +89,22 @@ function generatePossible(userLength, concatString) {
 
 // Check to make sure password is valid and contains users selected characters
 function checkPasswordValid(passToCheck) {
-  console.log(passToCheck + " check to see if password is valid");
+  console.log(passToCheck + " checking to see if the password is valid");
   if (special) {
     let check1 = commonChar(SPECIAL_CHARACTERS, passToCheck);
-    console.log("check for special characters " + check1);
+    console.log("checking for special characters " + check1);
   }
   if (numbers) {
     let check2 = commonChar(NUMERICAL_CHARACTERS, passToCheck);
-    console.log("check for numbers " + check2);
+    console.log("checking for numbers " + check2);
   }
   if (lowerCase) {
     let check3 = commonChar(LOWERCASE_CHARACTERS, passToCheck);
-    console.log("check for lowercase " + check3);
+    console.log("checking for lowercase " + check3);
   }
   if (upperCase) {
     let check4 = commonChar(UPPERCASE_CHARACTERS, passToCheck);
-    console.log("check for uppercase " + check4);
+    console.log("checking for uppercase " + check4);
   }
   return true;
 }
