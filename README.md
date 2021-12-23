@@ -8,20 +8,24 @@ Our task was to create a Password Generator by modifying the starter code we had
 
 ![Mockup example](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/03-javascript-homework-demo.png) 
 
-As seen below as per the acceptance criteria, the user needed to choose a value between 8-128 characters, if they didnt they were shown a please try gain
+As seen below as per the acceptance criteria, the user needed to choose a value between 8-128 characters, if they didnt they were shown a please try again prompt
 
 ![8-128 Characters](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/How-many-characters.jpg)
 ![Invalid Input](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/invalid-outside-values.jpg)
 
+We next had to offer the user the options to include either special characters, numbers, lowercase or uppercase letters. After each selection the user will get a prompt, clicking OK allows the user to include that value where as cancel wouldn't include that value, see below all my different prompts
 
 ![Special](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/special-prompt.jpg)
 ![Number](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/number-prompt.jpg)
 ![Lowercase](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/lowercase-prompt.jpg)
 ![Uppercase](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/uppercase-prompt.jpg)
 
+The user has successfully created and random password as per the screenshot below and it matches all there criteria they selected. I also included a true statement in the console to make sure it was all working properly
+
 ![Successful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/pword-generated.jpg)
 ![Check IF True](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/check-if-true.jpg)
 
+Overall I found this homework quite difficult and I was constantly doing additional research and rewatching the zoom meetings to try and work out where I was going wrong. I am happy with the finished product but I think I need to spend more time on it and allow myself to understand it a lot more.
 
 Please find my link to my wesbite below:
 
