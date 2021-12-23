@@ -20,12 +20,11 @@ We next had to offer the user the options to include either special characters, 
 ![Lowercase](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/lowercase-prompt.jpg)
 ![Uppercase](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/uppercase-prompt.jpg)
 
-The user has successfully created and random password as per the screenshot below and it matches all there criteria they selected. I also included a true statement in the console to make sure it was all working properly
+The user has successfully created and random password as per the screenshot below and it matches all there criteria they selected. 
 
 ![Successful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/pword-generated.jpg)
-![Check IF True](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/check-if-true.jpg)
 
-Overall I found this homework quite difficult and I was constantly doing additional research and rewatching the zoom meetings to try and work out where I was going wrong. I am happy with the finished product but I think I need to spend more time on it and allow myself to understand it a lot more.
+Overall I found this homework quite difficult and I was constantly doing additional research and rewatching the zoom meetings over and over to try and work out where I was going wrong. I am happy with the finished product but I think I need to spend more time on it and allow myself to understand it a lot more.
 
 Please find my link to my wesbite below:
 

@@ -1,8 +1,8 @@
 //Variables
-var special = false;
-var numbers = false;
-var lowerCase = false;
-var upperCase = false;
+var special 
+var numbers 
+var lowerCase 
+var upperCase 
 
 //Constants 
 const SPECIAL_CHARACTERS = '!@#$%^&*();:.,<>';
@@ -89,27 +89,22 @@ function generatePossible(userLength, concatString) {
 
 // Check to make sure password is valid and contains users selected characters
 function checkPasswordValid(passToCheck) {
-  console.log(passToCheck + " checking to see if the password is valid");
   if (special) {
     let check1 = commonChar(SPECIAL_CHARACTERS, passToCheck);
-    console.log("checking for special characters " + check1);
   }
   if (numbers) {
     let check2 = commonChar(NUMERICAL_CHARACTERS, passToCheck);
-    console.log("checking for numbers " + check2);
   }
   if (lowerCase) {
     let check3 = commonChar(LOWERCASE_CHARACTERS, passToCheck);
-    console.log("checking for lowercase " + check3);
   }
   if (upperCase) {
     let check4 = commonChar(UPPERCASE_CHARACTERS, passToCheck);
-    console.log("checking for uppercase " + check4);
   }
   return true;
 }
 
-//
+// Check to see common characters
 function commonChar(charSetString, passwordTest) {
 
   for (let i = 0; i < passwordTest.length; i++) {
