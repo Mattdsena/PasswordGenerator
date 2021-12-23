@@ -24,7 +24,7 @@ The user has successfully created and random password as per the screenshot belo
 
 ![Successful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/pword-generated.jpg)
 
-The user have been unsuccessful in creating a password as they didn't select a criteria, as seen in screenshot below
+The user has been unsuccessful in creating a password as they didn't select a criteria, as seen in screenshot below
 
 ![Unsuccessful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/no-character-selected.jpg)
 
