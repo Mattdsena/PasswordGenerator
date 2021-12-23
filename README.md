@@ -24,6 +24,10 @@ The user has successfully created and random password as per the screenshot belo
 
 ![Successful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/pword-generated.jpg)
 
+The user have been unsuccessful in creating a password as they didn't select a criteria, as seen in screenshot below
+
+![Unsuccessful](https://github.com/Mattdsena/PasswordGenerator/blob/main/Images/no-character-selected.jpg)
+
 Overall I found this homework quite difficult and I was constantly doing additional research and rewatching the zoom meetings over and over to try and work out where I was going wrong. I am happy with the finished product but I think I need to spend more time on it and allow myself to understand it a lot more.
 
 Please find my link to my wesbite below:
